@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoprincipal"
+    tools:context="com.example.usuario.dinamicview.RespuestaActivity" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:id="@+id/linearLayaout1"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_entrada"
+            android:textSize="@dimen/tam_letra"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/colorFondo"
+            android:paddingBottom="10dp"/>
+        <RadioGroup
+            android:id="@+id/rgObjeto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <RadioButton
+                android:id="@+id/rbFunciones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/s_funciones"
+                android:textSize="@dimen/tam_letra"
+                android:textColor="@color/colorFondo"
+                android:onClick="eventoOnClick" />
+            <RadioButton
+                android:id="@+id/rbTabla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/s_tabla"
+                android:textSize="@dimen/tam_letra"
+                android:textColor="@color/colorFondo"
+                android:onClick="eventoOnClick" />
+        </RadioGroup>
+        <LinearLayout
+            android:id="@+id/linerLayoutFuncion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/LinearLayoutFuncion1_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linerLayoutFuncion1_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutTabla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/linearLayoutTabla1_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutTabla1_2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical">
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayoutTabla1_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"></LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

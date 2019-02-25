@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Boolean app</string>
+    <string name="s_funciones">Funciones</string>
+    <string name="s_tabla">Tabla</string>
+    <string name="nFunciones">Ingresa el número de funciones</string>
+    <string name="nVariables">Ingresa el número de variables</string>
+    <string name="tv_entrada">Selecciona entrada</string>
+    <string name="errSematicaVariables">Número de variables excedido</string>
+    <string name="errSintaxisOperador">Falta un operador booleano cerca de\u0020</string>
+    <string name="errSintaxisOperando">Falta una variable cerca de\u0020</string>
+    <string name="errSintaxisExpresionVacia">Falta una expresión cerca de\u0020</string>
+    <string name="errSintaxisParentesisDesequilibrados">Parentesis desequilibrados cerca de\u0020</string>
+    <string name="errSintaxisParentesisDerecho">Falta un paréntesis de cierre cerca de\u0020</string>
+    <string name="errSintaxisParentesisIzquierdo">Falta un paréntesis de apertura cerca de\u0020</string>
+    <string name="errSintaxisFuncion">Función\u0020</string>
+    <string name="errLexico">Variable u operador no conocido\u0020</string>
+    <string name="errConjuntoABCDE">El caracter %s no es válido, debe estar en el rango a, b, c, d, e</string>
+    <string name="errConjuntoVWXYZ">El caracter %s no es válido, debe estar en el rango v, w, x, y, z</string>
+    <string name="headerTableMenuFunc">Función</string>
+    <string name="headerTableMenuMiniterm">Minitérminos</string>
+    <string name="muestra_circuito">Mostrar Circuito</string>
+    <string name="text_button_start">Iniciar</string>
+    <string name="text_button_help">Ayuda</string>
+    <string name="text_button_credits">Créditos</string>
+    <string name="text_proyecto">Proyecto:</string>
+    <string name="text_nom_proyecto">BooleanApp:</string>
+    <string name="text_carrera">Carrera:</string>
+    <string name="text_nom_carrera">Ingeniería en Computación:</string>
+    <string name="text_alumnos">Alumnos:</string>
+    <string name="text_nom_alumno_uno">José Luis García Guerrero</string>
+    <string name="text_nom_alumno_dos">Hugo Armando Rodríguez Flores</string>
+    <string name="text_nom_alumno_tres">Francisco Yair Rodríguez Martínez</string>
+    <string name="text_asesores">Asesores:</string>
+    <string name="text_nom_asesor_uno">Miguel Ángel Botello Aragón</string>
+    <string name="text_nom_asesor_dos">Froylán Eloy Hernández Castro</string>
+    <string name="text_parte_uno">Entradas:</string>
+    <string name="text_explicacion_uno">El usuario tendra 2 maneras de ingresar valores a la
+                                        aplicación, por funciones booleanas y por tabla de
+                                        verdad</string>
+    <string name="text_parte_dos">Funciones:</string>
+    <string name="text_explicacion_funciones">Seleccionaras el número de funciones que deseas
+                                            ingresar y presionar el botón crear, para que se creen
+                                            los inputs para ingresar tus funciones a evaluar; para
+                                            posteriormente presionar el botón para crear el mapa
+                                            de karnaugh a partir de las funciones dadas.
+                                        </string>
+    <string name="text_parte_dos_uno">Nota:</string>
+    <string name="text_explicacion_nota">Acepta valores de 5 variables en conjuntos del mismo tipo
+                                        de a-e y v-z.
+                                        Las operaciones que acepta son:
+                                        + (Or), . (And), negación(Not).
+                                        </string>
+    <string name="text_parte_tres">Tabla:</string>
+    <string name="text_explicacion_tabla">Te pedira que ingreses las variables y las funciones que
+                                            deseas que tenga tu tabla de verdar para posteriormente
+                                            generar la tabla de verdad apartir de los datos que dio
+                                            el usuario, teniendo la parte de las funciones sin
+                                            bloquear para que el usuario cambie los valores al
+                                            presionar las variables dadas por default de
+                                            las funciones de salida y generar el mapa de karnaugh
+                                            a partir de esto.
+                                        </string>
+    <string name="text_explicacion_nota_dos">Acepta valores de 0s, 1s y Xs(No importa).
+                                        </string>
+    <string name="text_parte_cuatro">Karnaugh:</string>
+    <string name="text_explicacion_karnaugh">Se mostrarán las tablas  karnaugh generadas a partir de la
+                                            tabla de verdad, el cual tendra un menu de botones para
+                                            ver enlace a enlace los resultados, otro para visualizarlos
+                                            automáticamente y ademas otros botones para cambiar
+                                            los mapas de karnaugh.
+                                        </string>
+
+</resources>
